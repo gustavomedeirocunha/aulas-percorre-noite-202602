@@ -1,0 +1,19 @@
+#card {
+    background-color: aliceblue;
+    border: 10px solid rgb(175, 197, 216) ;
+    width: 500px;   
+    padding-left: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 50px black;
+    
+}
+#foto {
+    width: 400px;
+}
+p {
+    width: 400px;
+}
+h2{
+    width: 400px;
+}
