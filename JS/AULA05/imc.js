@@ -1,7 +1,7 @@
 function imc(peso, altura) {
     return peso / (altura * altura)
 }
-let peso = 1000
+let peso = 10
 let altura = 1.85
 let imc1 = imc(peso, altura)
 
@@ -17,11 +17,14 @@ if (imc1 <= 18.5){
 else if (imc1 => 18.5 && 24.9 ) {
     console.log("Você está no peso normal");
 }
-else if (imc1 => 18.5 && 24.9 ) {
-    console.log("Você está no peso normal");
+else if (imc1 => 25.0 && 29.9 ) {
+    console.log("Você está no Sobrepeso");
 }
-else if (imc1 => 18.5 && 24.9 ) {
-    console.log("Você está no peso normal");
+else if (imc1 => 30.0 && 34.9 ) {
+    console.log("Você está na Obesidade Grau I");
+}
+else if (imc1 => 35.0 && 39.9 ) {
+    console.log("Você está na Obesidade Grau II");
 }
 else {
     console.log("Você está na Obesidade Grau III");

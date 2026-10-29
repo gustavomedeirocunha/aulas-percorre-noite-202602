@@ -1,0 +1,17 @@
+.quadrados {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 2px red solid;
+}
+
+.container {
+    border: 5px blue solid;
+    /* Flexbox permite organizar os itens interos horizontalmente e verticalmente*/
+    display: flex;
+    /* justify content para organizar horizontalmente*/
+    justify-content: space-between;
+    /*aling para organizar verticalmente*/
+    align-items: end;
+    height: 400px;
+}
