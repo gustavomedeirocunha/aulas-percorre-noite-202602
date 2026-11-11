@@ -1,0 +1,30 @@
+ol {
+    background: yellowgreen;
+}
+li {
+    background: rebeccapurple;
+}
+li:hover {
+    border: 2px solid red;
+    transition: 2s;
+}
+img {
+    width: 500px;
+    height: 500px;
+}
+img:active{
+    width: 100%;
+}
+.Top {
+    display: flex;
+    background: rebeccapurple;
+    color: rebeccapurple;
+}
+.Top p:hover {
+    color: white;
+    font-size: 200px;
+}
+
+li:nth-child(1){
+    background: yellow;
+}
